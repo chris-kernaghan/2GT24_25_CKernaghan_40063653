@@ -4228,6 +4228,8 @@ GameObject:
   - component: {fileID: 9073464120806522760}
   - component: {fileID: 5478794251445232437}
   - component: {fileID: 534553725185748695}
+  - component: {fileID: 2676773326667464114}
+  - component: {fileID: 1713611613057235474}
   m_Layer: 0
   m_Name: Dog_Beagle_01
   m_TagString: Untagged
@@ -4331,6 +4333,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5042f529b2751d4459f30d8286f2d8fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2676773326667464114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901652891150283749}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.063915536, y: 0.19283968, z: 0.2573759}
+  m_Center: {x: -0.00023899972, y: 0.09613255, z: 0.031885557}
+--- !u!114 &1713611613057235474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901652891150283749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14a0a8977c73043419c3e1097d9854c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7098854743954441167
